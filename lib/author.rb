@@ -22,7 +22,7 @@ class Author
 
   def add_post_by_title(title)
     post = Post.new(title)           #creating a new instance of a post
-    post.author = self              #Makes sure it collects to a specifc (unique) author each time
+    post.author = self               #Right here all we're doing is associating the objects its that simple
   end
 
   def self.post_count
