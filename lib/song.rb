@@ -13,6 +13,6 @@ class Song
   end
 
   def artist_name
-    artist.name if artist              #boolean condition created inside of its own method. returns the instance of "artist" accessor
+    artist.name if artist              #boolean condition created inside of its own method. returns the instance of "artist" attribute
   end                                   #This method can return nil
 end
